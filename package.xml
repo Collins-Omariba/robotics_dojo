@@ -3,7 +3,7 @@
 <package format="3">
   <name>robotics_dojo</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>My first ROS package</description>
   <maintainer email="my_email@email.com">OMARIBA</maintainer>
   <license>MIT</license>
 
@@ -11,6 +11,10 @@
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
+
+
+  <exec_depend>demo_nodes_cpp</exec_depend>
+  <exec_depend>demo_nodes_py</exec_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
